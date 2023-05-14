@@ -11,4 +11,5 @@ module.exports = {
   rules: {
     'react-refresh/only-export-components': 'warn',
   },
+  'no-unused-variable': [true, { "ignore-pattern": "^_" }],
 }
